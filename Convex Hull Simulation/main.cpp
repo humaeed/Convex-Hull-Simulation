@@ -273,7 +273,7 @@ void draw_title() {
 void write_rules() {
   string s = "~ click on the grid to provide points ~";
   glColor3ub(255, 255, 255);
-  if (disp_id != 2) {
+  if (disp_id != 2) { 
     glRasterPos2f(325, 510);
     for (char c : s) {
       glutBitmapCharacter(GLUT_BITMAP_HELVETICA_10, c);
